@@ -1,0 +1,13 @@
+{
+    "name": "khoul/supermarket-shopping-cart",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "khouloud Haddad Amamou",
+            "email": "khouloud.haddad@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
