@@ -2,6 +2,21 @@
 A PHP project to calculate shopping basket totals with various discount schemes.
 
 
+<div style="display: flex; flex-direction: column; align-items: center;">
+
+![SupermarketShoppingCart](https://i.ibb.co/HT2HqFf/b3e2d59d-451a-4c95-bf12-f579e5e139c6.webp) 
+
+![SupermarketShoppingCart](https://i.ibb.co/JchMgWW/Capture.png)  
+</div>
+
+
+## Features
+
+- Add items to the basket.
+- Apply various discount schemes (e.g., Buy One Get One Free).
+- Calculate the total price of the shopping basket.
+
+
 ## Key Features
 1. name and description:
 
