@@ -49,6 +49,6 @@ class ShoppingBasket
             0
         );
 
-        return $total - $discountTotal;
+        return (float) number_format($total - $discountTotal, 2, '.', '');
     }
 }
