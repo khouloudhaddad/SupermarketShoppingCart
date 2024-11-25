@@ -1,5 +1,6 @@
 {
     "name": "khoul/supermarket-shopping-cart",
+    "description": "A PHP project to calculate shopping basket totals with various discount schemes.",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -8,6 +9,24 @@
             "email": "khouloud.haddad@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "Supermarket\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --testdox"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
